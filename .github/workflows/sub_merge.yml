@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 0/4 * * *"
+    - cron: "0 0/3 * * *"
 
 jobs:
   deploy:
@@ -47,7 +47,7 @@ jobs:
       - name: run
         run: |
           rm -rf ./sub/*
-          wget -O subconverter.tar.gz https://github.com/tindy2013/subconverter/releases/latest/download/subconverter_linux64.tar.gz
+          wget -O subconverter.tar.gz https://github.com/MetaCubeX/subconverter/releases/latest/download/subconverter_linux64.tar.gz
           tar -zxvf subconverter.tar.gz -C ./
           chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter >./subconverter.log 2>&1 &
           python ./url_update.py
