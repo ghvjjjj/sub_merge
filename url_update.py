@@ -82,7 +82,7 @@ def get_node_from_sub(url_raw='', server_host='http://127.0.0.1:25500'):
         url_quote = urllib.parse.quote(url.strip(), safe='')
         # 转换并获取订阅链接数据
         converted_url = server_host + '/sub?target=clash&url=' + \
-                        url_quote + '&emoji=true&list=true&tfo=false&scv=true&fdn=true&sort=false&new_name=true'
+                        url_quote + '&include=%F0%9F%87%AF%F0%9F%87%B5%7C%E6%97%A5%E6%9C%AC%7C%E5%B7%9D%E6%97%A5%7C%E4%B8%9C%E4%BA%AC%7C%E5%A4%A7%E9%98%AA%7C%E6%B3%89%E6%97%A5%7C%E5%9F%BC%E7%8E%89%7CJP%7CJapan%7C%F0%9F%87%B0%F0%9F%87%B7%7C%E9%9F%A9%E5%9B%BD%7C%E9%9F%93%7C%E9%A6%96%E5%B0%94%7CKR%7CKorea%7C%F0%9F%87%B8%F0%9F%87%AC%7C%E6%96%B0%E5%8A%A0%E5%9D%A1%7C%E7%8B%AE%7CSG%7CSingapore%7C%F0%9F%87%AD%F0%9F%87%B0%7C%E9%A6%99%E6%B8%AF%7CHK%7CHong%7C%F0%9F%87%BA%F0%9F%87%B8%7C%E7%BE%8E%E5%9B%BD%7C%E6%B3%A2%E7%89%B9%E5%85%B0%7C%E8%BE%BE%E6%8B%89%E6%96%AF%7C%E4%BF%84%E5%8B%92%E5%86%88%7C%E5%87%A4%E5%87%B0%E5%9F%8E%7C%E8%B4%B9%E5%88%A9%E8%92%99%7C%E7%A1%85%E8%B0%B7%7C%E6%8B%89%E6%96%AF%E7%BB%B4%E5%8A%A0%E6%96%AF%7C%E6%B4%9B%E6%9D%89%E7%9F%B6%7C%E5%9C%A3%E4%BD%95%E5%A1%9E%7C%E5%9C%A3%E5%85%8B%E6%8B%89%E6%8B%89%7C%E8%A5%BF%E9%9B%85%E5%9B%BE%7C%E8%8A%9D%E5%8A%A0%E5%93%A5%7CUS%7CUnited%20States%7C%F0%9F%87%B9%F0%9F%87%BC%7C%E5%8F%B0%E6%B9%BE%7CTW%7CTai%7CTaiwan&tls13=true&sort=true&emoji=true&list=true&xudp=false&udp=true&tfo=true&expand=true&scv=true&fdn=false&new_name=true'
         try:
             s = requests.Session()
             s.mount('http://', HTTPAdapter(max_retries=5))
@@ -120,7 +120,7 @@ def get_node_from_sub(url_raw='', server_host='http://127.0.0.1:25500'):
 
 class update_url():
 
-    def update_main(update_enable_list=[0, 25, 43]):
+    def update_main(update_enable_list=[0]):
         if len(update_enable_list) > 0:
             for id in update_enable_list:
                 status = update_url.update(id)
@@ -147,9 +147,7 @@ class update_url():
 
     def update(id):
         if id == 0:
-            url_raw = ["https://raw.githubusercontent.com/snakem982/proxypool/main/source/nodelist.txt",
-                       "https://raw.githubusercontent.com/snakem982/proxypool/main/source/proxies.txt",
-                       "https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/subs"]
+            url_raw = []
             url_array = []
             try:
                 for url in url_raw:
@@ -162,33 +160,6 @@ class update_url():
                 return [id, url_update]
             except Exception as err:
                 logging.error(f"{err.args[0]}")
-                return [id, 404]
-
-        elif id == 43:
-            # remarks: v2raydy/v2ray, 将原链接更新至 https://https://raw.githubusercontent.com/v2raydy/v2ray/main/%MM-%(DD - 1)%str%1.txt
-            # 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
-            # https://nodefree.org/dy/2023/02/20230205.yaml
-            today = datetime.today().strftime('%Y%m%d')
-            year = datetime.today().strftime('%Y') + '/'
-            month = datetime.today().strftime('%m') + '/'
-            front_url = 'https://nodefree.org/dy/'
-            end_url = '.yaml'
-            url_update = front_url + year + month + today + end_url
-            if check_url(url_update):
-                return [id, url_update]
-            else:
-                return [id, 404]
-
-        elif id == 25:
-            today = datetime.today().strftime('%Y%m%d')
-            month = datetime.today().strftime('%m') + '/'
-            year = datetime.today().strftime('%Y') + '/'
-            front_url = 'https://v2rayshare.com/wp-content/uploads/'
-            end_url = '.yaml'
-            url_update = front_url + year + month + today + end_url
-            if check_url(url_update):
-                return [id, url_update]
-            else:
                 return [id, 404]
 
 

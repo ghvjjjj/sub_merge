@@ -25,7 +25,7 @@ server_host = 'http://127.0.0.1:25500'
 # server_host = 'http://192.168.100.1:25500'
 # config_url = 'https://raw.githubusercontent.com/zzcabc/Rules/master/MyConvert/MyRules.ini'
 
-include = ".*香港.*|.*HK.*|.*Hong Kong.*|.*🇭🇰.*"
+include = "🇯🇵|日本|川日|东京|大阪|泉日|埼玉|JP|Japan|🇰🇷|韩国|韓|首尔|KR|Korea|🇸🇬|新加坡|狮|SG|Singapore|🇭🇰|香港|HK|Hong|🇹🇼|台湾|TW|Tai|Taiwan|🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|🇬🇧|英国|伦敦|UK|United Kingdom|🇫🇷|法国|FR|France|🇩🇪|德国|DE|Germany"
 exclude = ".*测速.*|.*禁止.*|.*过期.*|.*剩余.*|.*CN.*|.*备用.*|.*🇨🇳.*"
 
 exce_url = ['1.1.1.1', '8.8.8.8', '0.0.0.0',
@@ -113,11 +113,11 @@ def run(index, shared_list):
     for url in url_lists:
         url_quote = urllib.parse.quote(url, safe='')
         # config_quote = urllib.parse.quote(config_url, safe='')
-        # include_quote = urllib.parse.quote(include, safe='')
-        exclude_quote = urllib.parse.quote(exclude, safe='')
+        include_quote = urllib.parse.quote(include, safe='')
+        # exclude_quote = urllib.parse.quote(exclude, safe='')
         # 转换并获取订阅链接数据
         converted_url = server_host + '/sub?target=clash&url=' + url_quote + \
-                        '&emoji=true&list=true&tfo=true&scv=true&fdn=true&sort=false&new_name=true&exclude=' + exclude_quote
+                        '&emoji=true&list=true&tfo=true&scv=true&fdn=true&sort=false&new_name=true&include=' + include_quote
         try:
             # lock.acquire()
             s = requests.Session()
@@ -265,7 +265,7 @@ if __name__ == '__main__':
     for p in processes:
         p.join()
     random.shuffle(shared_list)
-    each_num = 512
+    each_num = 50
     thread_list = []
     t_num = len(shared_list) // each_num + 1
     for i in range(t_num):
