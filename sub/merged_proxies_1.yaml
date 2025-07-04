@@ -1,48 +1,21 @@
 proxies:
-- name: 🇺🇸 美国_3
-  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-  port: 443
-  server: 208.87.242.215
+- name: US_58
+  obfs: salamander
+  obfs-password: fWQ4LCfAYiKaEVRe
+  password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
+  port: 47647
+  server: 107.175.145.72
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: www.apple.com
   tfo: true
   type: hysteria2
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: ❓_🇺🇸_📶_github.com/Ruk1ng001_3838303539393031
-  port: 25888
-  reality-opts:
-    public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA
-    short-id: be1be5fc
-  server: 143.14.220.111
-  servername: www.samsung.com
+- name: ❓ 未知_3
+  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  port: 3234
+  server: 209.141.47.127
   skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  uuid: c5cd9845-55c5-4c0d-8709-d62211d61536
-- name: _🇺🇸_💻_github.com/Ruk1ng001_62323663666138
-  password: dongtaiwang.com
-  port: 4710
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
   tfo: true
   type: hysteria2
-- name: _🇺🇸_💻_github.com/Ruk1ng001_6630316666643433
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 172.66.44.230
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tfo: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tro8sFW1S91B6sZrM1?ed=2560
 - name: US_10
   network: ws
   password: c891d9fe-c4eb-4526-94e0-d9bf841c572a
@@ -56,94 +29,27 @@ proxies:
     headers:
       Host: FFBbN.890601.xYz
     path: /xMZBZXFlWfYaf1WT6O9LnD
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: US_53
-  port: 25888
-  reality-opts:
-    public-key: Md6PoLS8ZgYxc-mOoMkLSRMksQzNTTPW0Psmo0y2c3E
-    short-id: 9c5b5b672053fc
-  server: 157.254.154.74
-  servername: www.samsung.com
+- name: ❓ 未知_1
+  password: dongtaiwang.com
+  port: 31180
+  server: 51.159.111.32
   skip-cert-verify: true
+  sni: apple.com
   tfo: true
-  tls: true
-  type: vless
-  uuid: 81fe20fc-2bde-40d1-88e6-b869ce232236
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: _🇰🇷_📶_github.com/Ruk1ng001_3639343865373034
+  password: qwerREWQ@@
+  port: 15098
+  server: 125.141.31.72
+  tfo: true
+  type: ss
 - name: SG_1
   password: DvhVMRAqetyyvyVkHSXapooH6lE
   port: 4200
   server: 95.134.250.196
   skip-cert-verify: true
   sni: bing.com
-  tfo: true
-  type: hysteria2
-- name: US_41
-  obfs: salamander
-  obfs-password: fWQ4LCfAYiKaEVRe
-  password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
-  port: 45494
-  server: 107.175.145.72
-  skip-cert-verify: true
-  sni: www.apple.com
-  tfo: true
-  type: hysteria2
-- name: _🇺🇸_💻_github.com/Ruk1ng001_6433643731383335
-  network: ws
-  password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
-  port: 443
-  server: 172.67.150.132
-  skip-cert-verify: true
-  sni: eeddcvfgt6.444682.xyz
-  tfo: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: eeddcvfgt6.444682.xyz
-    path: /ctHoQlqeZn8pbEUSLppj7jCmY
-- name: US_37
-  network: ws
-  password: c226ac5d-65e9-4379-95c3-fb542bc242d8
-  port: 443
-  server: 104.21.91.180
-  skip-cert-verify: true
-  sni: sssxXZAw.666461.xYz
-  tfo: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sssxXZAw.666461.xYz
-    path: /PLibEtUpg4ykd4O
-- name: US_52
-  obfs: salamander
-  obfs-password: fWQ4LCfAYiKaEVRe
-  password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
-  port: 21080
-  server: 107.175.145.72
-  skip-cert-verify: true
-  sni: www.apple.com
-  tfo: true
-  type: hysteria2
-- name: US_11
-  network: ws
-  password: c226ac5d-65e9-4379-95c3-fb542bc242d8
-  port: 443
-  server: 104.21.91.180
-  skip-cert-verify: true
-  sni: sssxXZAw.666461.xYz
-  tfo: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sssxXZAw.666461.xYz
-    path: /PLibEtUpg4ykd4O
-- name: 🇺🇸 美国_2
-  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-  port: 443
-  server: 108.181.23.255
-  skip-cert-verify: true
-  sni: www.bing.com
   tfo: true
   type: hysteria2
 - alterId: 2
@@ -161,19 +67,37 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: US_45
-  obfs: salamander
-  obfs-password: fWQ4LCfAYiKaEVRe
-  password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
-  port: 48139
-  server: 107.175.145.72
+- name: US_48
+  network: ws
+  password: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+  port: 443
+  server: 104.21.84.58
   skip-cert-verify: true
-  sni: www.apple.com
+  sni: dddDdDdDDFfFf.iran2035.dPdNS.ORG
   tfo: true
-  type: hysteria2
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dddDdDdDDFfFf.iran2035.dPdNS.ORG
+    path: /xa846InEcmjyiKVby2Lp
+- alterId: 0
+  cipher: auto
+  name: US_17
+  network: ws
+  port: 80
+  server: 104.21.89.221
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  uuid: 512d9674-db12-44ca-a1b5-654244549b65
+  ws-opts:
+    headers:
+      Host: ssxxzasw.999824.xyz
+    path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm
 - alterId: 2
   cipher: auto
-  name: HK_12
+  name: HK_5
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -181,18 +105,25 @@ proxies:
   tfo: true
   tls: false
   type: vmess
-  uuid: e2d8b574-e089-11ef-9cc7-f23c9164ca5d
+  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: hkt.gotochinatown.net
     path: /
-- name: ❓ 未知_3
-  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  port: 3234
-  server: 209.141.47.127
+- name: _🇺🇸_💻_github.com/Ruk1ng001_6433643731383335
+  network: ws
+  password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
+  port: 443
+  server: 172.67.150.132
   skip-cert-verify: true
+  sni: eeddcvfgt6.444682.xyz
   tfo: true
-  type: hysteria2
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: eeddcvfgt6.444682.xyz
+    path: /ctHoQlqeZn8pbEUSLppj7jCmY
 - name: US_26
   network: ws
   password: dc50eb1d-244d-4711-b168-a101a5e6fb1b
@@ -206,71 +137,21 @@ proxies:
     headers:
       Host: yyyhhjki.666461.xyz
     path: /c6nDz4OnpXiNaWb
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: HK_6
-  port: 25888
-  reality-opts:
-    public-key: Md6PoLS8ZgYxc-mOoMkLSRMksQzNTTPW0Psmo0y2c3E
-    short-id: 9c5b5b672053fc
-  server: 157.254.154.74
-  servername: www.samsung.com
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  uuid: 8db41d88-269d-48d6-88b4-ab6ccc7291a5
-- name: _🇺🇸_💻_github.com/Ruk1ng001_3530376334636161
-  network: ws
-  password: trojan
-  port: 8443
-  server: 104.26.12.31
-  skip-cert-verify: true
-  sni: fofang.pages.dev
-  tfo: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: fofang.pages.dev
-    path: /?ed=2560
-- name: _🇺🇸_💻_github.com/Ruk1ng001_3835313431343264
-  network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: 2053
-  server: 172.66.44.214
-  skip-cert-verify: true
-  sni: NOp-55q.pAgEs.dEv
-  tfo: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: NOp-55q.pAgEs.dEv
-    path: /trGPZDfetEwuO25SAs?ed=2560
-- name: ❓ 未知_1
-  password: dongtaiwang.com
-  port: 31180
-  server: 51.159.111.32
-  skip-cert-verify: true
-  sni: apple.com
-  tfo: true
-  type: hysteria2
-- name: US_58
+- name: US_52
   obfs: salamander
   obfs-password: fWQ4LCfAYiKaEVRe
   password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
-  port: 47647
+  port: 21080
   server: 107.175.145.72
   skip-cert-verify: true
   sni: www.apple.com
   tfo: true
   type: hysteria2
-- name: US_32
+- name: US_41
   obfs: salamander
   obfs-password: fWQ4LCfAYiKaEVRe
   password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
-  port: 43011
+  port: 45494
   server: 107.175.145.72
   skip-cert-verify: true
   sni: www.apple.com
@@ -291,24 +172,32 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: US_42
-  obfs: salamander
-  obfs-password: fWQ4LCfAYiKaEVRe
-  password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
-  port: 42288
-  server: 107.175.145.72
+- name: US_1
+  network: ws
+  password: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+  port: 443
+  server: 172.67.187.28
   skip-cert-verify: true
-  sni: www.apple.com
+  sni: gGgGGGGGGgGgHHHHhhhHhj.iRaN2035.dpdNS.oRg
   tfo: true
-  type: hysteria2
-- name: 🇺🇸 美国_1
-  password: dongtaiwang.com
-  port: 4710
-  server: 108.181.5.130
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gGgGGGGGGgGgHHHHhhhHhj.iRaN2035.dpdNS.oRg
+    path: /xa846InEcmjyiKVby2Lp
+- name: US_43
+  network: ws
+  password: 2d068083-2cb0-4ae3-a44a-6fc82f3039cc
+  port: 443
+  server: 172.67.220.213
   skip-cert-verify: true
-  sni: apple.com
+  sni: dDDccCDvFg.222856.XYZ
   tfo: true
-  type: hysteria2
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dDDccCDvFg.222856.XYZ
+    path: /yBqYg1mv8EDa06b88JSo
 - name: US_36
   network: ws
   password: dc50eb1d-244d-4711-b168-a101a5e6fb1b
@@ -322,14 +211,33 @@ proxies:
     headers:
       Host: yyyhhjki.666461.xyz
     path: /c6nDz4OnpXiNaWb
-- name: US_49
-  password: dongtaiwang.com
-  port: 4710
-  server: 108.181.5.130
+- name: US_11
+  network: ws
+  password: c226ac5d-65e9-4379-95c3-fb542bc242d8
+  port: 443
+  server: 104.21.91.180
   skip-cert-verify: true
-  sni: apple.com
+  sni: sssxXZAw.666461.xYz
   tfo: true
-  type: hysteria2
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sssxXZAw.666461.xYz
+    path: /PLibEtUpg4ykd4O
+- name: _🇺🇸_💻_github.com/Ruk1ng001_6630316666643433
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tro8sFW1S91B6sZrM1?ed=2560
 - name: US_54
   obfs: salamander
   obfs-password: fWQ4LCfAYiKaEVRe
@@ -340,21 +248,32 @@ proxies:
   sni: www.apple.com
   tfo: true
   type: hysteria2
-- alterId: 2
-  cipher: auto
-  name: HK_13
+- name: US_16
   network: ws
-  port: 80
-  server: hkt.gotochinatown.net
+  password: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+  port: 443
+  server: 104.21.84.58
   skip-cert-verify: true
+  sni: FFfFfFfvvBGnH.IrAN2035.DPDnS.oRg
   tfo: true
-  tls: false
-  type: vmess
-  uuid: dfb6b402-f422-11ef-80e5-f23c9164ca5d
+  type: trojan
   ws-opts:
     headers:
-      Host: hkt.gotochinatown.net
-    path: /
+      Host: FFfFfFfvvBGnH.IrAN2035.DPDnS.oRg
+    path: /xa846InEcmjyiKVby2Lp
+- name: US_39
+  network: ws
+  password: da128246-33b0-4c88-a44e-d91e9e0a1e05
+  port: 443
+  server: 172.67.208.155
+  skip-cert-verify: true
+  sni: SsSDdDffGBNhJu.2030.Pp.Ua
+  tfo: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: SsSDdDffGBNhJu.2030.Pp.Ua
+    path: /UmUQq8h08wB9JsgTazwz9
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: ❓_🇺🇸_💻_github.com/Ruk1ng001_6639626666313035
@@ -382,3 +301,66 @@ proxies:
     headers:
       Host: rrrrrrrt.859886.xyz
     path: /ORgwL4kEvW32T1dU239ar
+- name: US_37
+  network: ws
+  password: c226ac5d-65e9-4379-95c3-fb542bc242d8
+  port: 443
+  server: 104.21.91.180
+  skip-cert-verify: true
+  sni: sssxXZAw.666461.xYz
+  tfo: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sssxXZAw.666461.xYz
+    path: /PLibEtUpg4ykd4O
+- name: _🇺🇸_💻_github.com/Ruk1ng001_3835313431343264
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: 2053
+  server: 172.66.44.214
+  skip-cert-verify: true
+  sni: NOp-55q.pAgEs.dEv
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs?ed=2560
+- alterId: 2
+  cipher: auto
+  name: HK_12
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  uuid: e2d8b574-e089-11ef-9cc7-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- name: US_35
+  network: ws
+  password: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+  port: 443
+  server: 172.67.187.28
+  skip-cert-verify: true
+  sni: NnNNnNNNNNjJjJJjhG.IRan2035.dPDnS.Org
+  tfo: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: NnNNnNNNNNjJjJJjhG.IRan2035.dPDnS.Org
+    path: /xa846InEcmjyiKVby2Lp
+- name: 🇺🇸 美国_1
+  password: dongtaiwang.com
+  port: 4710
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tfo: true
+  type: hysteria2
