@@ -82,186 +82,41 @@
     },
     "outbounds": [
         {
-            "password": "kIKFMf0EbDYYTnUYTSWsrZO2CgI",
-            "server": "13.230.97.153",
-            "server_port": 24801,
-            "tag": "🇯🇵 日本326",
+            "password": "65a43b6e-19c5-4fab-b960-d110a07d66a4",
+            "server": "209.141.47.127",
+            "server_port": 3234,
+            "tag": "🇺🇸 美国 29301",
             "tls": {
                 "enabled": true,
-                "server_name": "bing.com",
+                "server_name": "209.141.47.127",
                 "insecure": true
             },
             "type": "hysteria2",
             "tcp_fast_open": true
         },
         {
-            "server": "195.154.200.40",
-            "server_port": 15010,
-            "tag": "2 |  2.2MB/s|25%|Youtube|Ope...",
-            "tls": {
-                "enabled": true,
-                "server_name": "apple.com",
-                "alpn": [
-                    "h3"
-                ],
-                "insecure": true
-            },
-            "type": "hysteria",
-            "auth_str": "dongtaiwang.com",
-            "down": "100 Mbps",
-            "up": "100 Mbps",
-            "tcp_fast_open": true
-        },
-        {
-            "password": "ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0",
-            "server": "107.175.145.72",
-            "server_port": 47647,
-            "tag": "🇺🇸 美国 54326",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com",
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "obfs": {
-                "password": "fWQ4LCfAYiKaEVRe",
-                "type": "salamander"
-            },
-            "tcp_fast_open": true
-        },
-        {
-            "password": "qwerREWQ@@",
-            "server": "p222.panda001.net",
-            "server_port": 15098,
-            "tag": "🇰🇷 韩国",
-            "type": "shadowsocks",
-            "method": "aes-256-cfb",
-            "network": "tcp",
-            "tcp_fast_open": true
-        },
-        {
-            "password": "288124da-0d68-42f4-9f48-70dc4dcc55a6",
-            "server": "172.67.175.139",
-            "server_port": 443,
-            "tag": "🇺🇸 美国 9334",
-            "tls": {
-                "enabled": true,
-                "server_name": "cvFbghYU.859886.XYZ",
-                "insecure": true
-            },
+            "server": "104.21.89.221",
+            "server_port": 80,
+            "tag": "🇺🇸 美国 9335",
             "transport": {
                 "headers": {
                     "Host": [
-                        "cvFbghYU.859886.XYZ"
+                        "ssxxzasw.999824.xyz"
                     ]
                 },
-                "path": "/raChT39pjLFYRA5HdHEIupMZeK",
+                "path": "/uiAxvH6OkVk0VCfa7dX3JIrYk7zm",
                 "type": "ws"
             },
-            "type": "trojan",
-            "tcp_fast_open": true
-        },
-        {
-            "password": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
-            "server": "172.67.187.28",
-            "server_port": 443,
-            "tag": "🇺🇸 美国 29326",
-            "tls": {
-                "enabled": true,
-                "server_name": "NnNNnNNNNNjJjJJjhG.IRan2035.dPDnS.Org",
-                "insecure": true
-            },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "NnNNnNNNNNjJjJJjhG.IRan2035.dPDnS.Org"
-                    ]
-                },
-                "path": "/xa846InEcmjyiKVby2Lp",
-                "type": "ws"
-            },
-            "type": "trojan",
-            "tcp_fast_open": true
-        },
-        {
-            "password": "dongtaiwang.com",
-            "server": "51.159.111.32",
-            "server_port": 31180,
-            "tag": "🇫🇷 法国",
-            "tls": {
-                "enabled": true,
-                "server_name": "apple.com",
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "tcp_fast_open": true
-        },
-        {
-            "password": "T@_WvT8Ho@LW%w_,",
-            "server": "172.66.44.214",
-            "server_port": 2053,
-            "tag": "🇺🇸 美国 27331",
-            "tls": {
-                "enabled": true,
-                "server_name": "NOp-55q.pAgEs.dEv",
-                "insecure": true
-            },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "NOp-55q.pAgEs.dEv"
-                    ]
-                },
-                "path": "/trGPZDfetEwuO25SAs?ed=2560",
-                "type": "ws"
-            },
-            "type": "trojan",
-            "tcp_fast_open": true
-        },
-        {
-            "password": "dc50eb1d-244d-4711-b168-a101a5e6fb1b",
-            "server": "104.21.91.180",
-            "server_port": 443,
-            "tag": "🇺🇸 美国 19328",
-            "tls": {
-                "enabled": true,
-                "server_name": "yyyhhjki.666461.xyz",
-                "insecure": true
-            },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "yyyhhjki.666461.xyz"
-                    ]
-                },
-                "path": "/c6nDz4OnpXiNaWb",
-                "type": "ws"
-            },
-            "type": "trojan",
-            "tcp_fast_open": true
-        },
-        {
-            "password": "ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0",
-            "server": "107.175.145.72",
-            "server_port": 43011,
-            "tag": "🇺🇸 美国 26330",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com",
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "obfs": {
-                "password": "fWQ4LCfAYiKaEVRe",
-                "type": "salamander"
-            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "512d9674-db12-44ca-a1b5-654244549b65",
             "tcp_fast_open": true
         },
         {
             "password": "c226ac5d-65e9-4379-95c3-fb542bc242d8",
             "server": "104.21.91.180",
             "server_port": 443,
-            "tag": "🇺🇸 美国 31327",
+            "tag": "🇺🇸 美国 3340",
             "tls": {
                 "enabled": true,
                 "server_name": "sssxXZAw.666461.xYz",
@@ -280,22 +135,179 @@
             "tcp_fast_open": true
         },
         {
-            "password": "9486ff17-2481-40c7-a5c4-d0d307de2509",
-            "server": "172.67.175.139",
-            "server_port": 443,
-            "tag": "🇺🇸 美国 16326",
+            "password": "dongtaiwang.com",
+            "server": "51.159.111.32",
+            "server_port": 31180,
+            "tag": "❓ 未知_1",
             "tls": {
                 "enabled": true,
-                "server_name": "rrrrrrrt.859886.xyz",
+                "server_name": "apple.com",
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
+            "server": "104.21.84.58",
+            "server_port": 443,
+            "tag": "🇺🇸 美国 43337",
+            "tls": {
+                "enabled": true,
+                "server_name": "dddDdDdDDFfFf.iran2035.dPdNS.ORG",
                 "insecure": true
             },
             "transport": {
                 "headers": {
                     "Host": [
-                        "rrrrrrrt.859886.xyz"
+                        "dddDdDdDDFfFf.iran2035.dPdNS.ORG"
                     ]
                 },
-                "path": "/ORgwL4kEvW32T1dU239ar",
+                "path": "/xa846InEcmjyiKVby2Lp",
+                "type": "ws"
+            },
+            "type": "trojan",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "c891d9fe-c4eb-4526-94e0-d9bf841c572a",
+            "server": "104.21.6.179",
+            "server_port": 443,
+            "tag": "🇺🇸 美国 2337",
+            "tls": {
+                "enabled": true,
+                "server_name": "FFBbN.890601.xYz",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "FFBbN.890601.xYz"
+                    ]
+                },
+                "path": "/xMZBZXFlWfYaf1WT6O9LnD",
+                "type": "ws"
+            },
+            "type": "trojan",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "x10.859885.xYz",
+            "server_port": 443,
+            "tag": "🇺🇸 美国 61340",
+            "tls": {
+                "enabled": true,
+                "server_name": "x10.859885.xYz",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "x10.859885.xyz"
+                    ]
+                },
+                "path": "/0FhUkqQUdxOhMB9JsgTazwz9",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "da128246-33b0-4c88-a44e-d91e9e0a1e05",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0",
+            "server": "107.175.145.72",
+            "server_port": 48139,
+            "tag": "🇺🇸 美国 40340",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "obfs": {
+                "password": "fWQ4LCfAYiKaEVRe",
+                "type": "salamander"
+            },
+            "tcp_fast_open": true
+        },
+        {
+            "password": "65a43b6e-19c5-4fab-b960-d110a07d66a4",
+            "server": "209.141.47.127",
+            "server_port": 3234,
+            "tag": "🇺🇸 美国 2",
+            "tls": {
+                "enabled": true,
+                "server_name": "209.141.47.127",
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0",
+            "server": "107.175.145.72",
+            "server_port": 43011,
+            "tag": "🇺🇸 美国 26336",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "obfs": {
+                "password": "fWQ4LCfAYiKaEVRe",
+                "type": "salamander"
+            },
+            "tcp_fast_open": true
+        },
+        {
+            "password": "dongtaiwang.com",
+            "server": "108.181.5.130",
+            "server_port": 4710,
+            "tag": "🇺🇸 美国 44335",
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0",
+            "server": "107.175.145.72",
+            "server_port": 42288,
+            "tag": "🇺🇸 美国 37337",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "obfs": {
+                "password": "fWQ4LCfAYiKaEVRe",
+                "type": "salamander"
+            },
+            "tcp_fast_open": true
+        },
+        {
+            "password": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
+            "server": "104.21.84.58",
+            "server_port": 443,
+            "tag": "🇺🇸 美国 8336",
+            "tls": {
+                "enabled": true,
+                "server_name": "FFfFfFfvvBGnH.IrAN2035.DPDnS.oRg",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "FFfFfFfvvBGnH.IrAN2035.DPDnS.oRg"
+                    ]
+                },
+                "path": "/xa846InEcmjyiKVby2Lp",
                 "type": "ws"
             },
             "type": "trojan",
@@ -304,7 +316,7 @@
         {
             "server": "45.150.165.121",
             "server_port": 7885,
-            "tag": "🇺🇸 美国 28331",
+            "tag": "🇺🇸 美国 28309",
             "tls": {
                 "enabled": true,
                 "server_name": "www.yahoo.com",
@@ -326,28 +338,10 @@
             "tcp_fast_open": true
         },
         {
-            "server": "104.21.89.221",
-            "server_port": 80,
-            "tag": "🇺🇸 美国 9328",
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "ssxxzasw.999824.xyz"
-                    ]
-                },
-                "path": "/uiAxvH6OkVk0VCfa7dX3JIrYk7zm",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "512d9674-db12-44ca-a1b5-654244549b65",
-            "tcp_fast_open": true
-        },
-        {
             "password": "dc50eb1d-244d-4711-b168-a101a5e6fb1b",
             "server": "172.67.177.109",
             "server_port": 443,
-            "tag": "🇺🇸 美国 30327",
+            "tag": "🇺🇸 美国 30337",
             "tls": {
                 "enabled": true,
                 "server_name": "yyyhhjki.666461.xyz",
@@ -366,32 +360,10 @@
             "tcp_fast_open": true
         },
         {
-            "password": "c226ac5d-65e9-4379-95c3-fb542bc242d8",
-            "server": "104.21.91.180",
-            "server_port": 443,
-            "tag": "🇺🇸 美国 3326",
-            "tls": {
-                "enabled": true,
-                "server_name": "sssxXZAw.666461.xYz",
-                "insecure": true
-            },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "sssxXZAw.666461.xYz"
-                    ]
-                },
-                "path": "/PLibEtUpg4ykd4O",
-                "type": "ws"
-            },
-            "type": "trojan",
-            "tcp_fast_open": true
-        },
-        {
             "password": "ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0",
             "server": "107.175.145.72",
-            "server_port": 21080,
-            "tag": "🇺🇸 美国 48326",
+            "server_port": 47647,
+            "tag": "🇺🇸 美国 54340",
             "tls": {
                 "enabled": true,
                 "server_name": "www.apple.com",
@@ -405,23 +377,29 @@
             "tcp_fast_open": true
         },
         {
-            "password": "65a43b6e-19c5-4fab-b960-d110a07d66a4",
-            "server": "209.141.47.127",
-            "server_port": 3234,
-            "tag": "🇺🇸 美国 2277",
-            "tls": {
-                "enabled": true,
-                "server_name": "209.141.47.127",
-                "insecure": true
+            "server": "hkt.gotochinatown.net",
+            "server_port": 80,
+            "tag": "🇭🇰 香港340",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "broadcastlv.chat.bilibili.com"
+                    ]
+                },
+                "path": "/",
+                "type": "ws"
             },
-            "type": "hysteria2",
+            "type": "vmess",
+            "alter_id": 2,
+            "security": "auto",
+            "uuid": "f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b",
             "tcp_fast_open": true
         },
         {
             "password": "dongtaiwang.com",
-            "server": "51.159.111.32",
-            "server_port": 31180,
-            "tag": "❓ 未知_1",
+            "server": "108.181.5.130",
+            "server_port": 4710,
+            "tag": "🇺🇸 美国319",
             "tls": {
                 "enabled": true,
                 "server_name": "apple.com",
@@ -431,83 +409,32 @@
             "tcp_fast_open": true
         },
         {
-            "password": "ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0",
-            "server": "107.175.145.72",
-            "server_port": 48689,
-            "tag": "🇺🇸 美国 50327",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com",
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "obfs": {
-                "password": "fWQ4LCfAYiKaEVRe",
-                "type": "salamander"
-            },
+            "password": "4a2rfixophdjffa8KVA4Aa",
+            "server": "beesyar.org",
+            "server_port": 8080,
+            "tag": "🇩🇪 德国 2340",
+            "type": "shadowsocks",
+            "method": "chacha20-ietf-poly1305",
+            "network": "tcp",
             "tcp_fast_open": true
         },
         {
-            "password": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
-            "server": "104.21.84.58",
-            "server_port": 443,
-            "tag": "🇺🇸 美国 43326",
+            "password": "T@_WvT8Ho@LW%w_,",
+            "server": "172.66.44.214",
+            "server_port": 2053,
+            "tag": "🇺🇸 美国 27303",
             "tls": {
                 "enabled": true,
-                "server_name": "dddDdDdDDFfFf.iran2035.dPdNS.ORG",
+                "server_name": "NOp-55q.pAgEs.dEv",
                 "insecure": true
             },
             "transport": {
                 "headers": {
                     "Host": [
-                        "dddDdDdDDFfFf.iran2035.dPdNS.ORG"
+                        "NOp-55q.pAgEs.dEv"
                     ]
                 },
-                "path": "/xa846InEcmjyiKVby2Lp",
-                "type": "ws"
-            },
-            "type": "trojan",
-            "tcp_fast_open": true
-        },
-        {
-            "password": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
-            "server": "104.21.84.58",
-            "server_port": 443,
-            "tag": "🇺🇸 美国 8326",
-            "tls": {
-                "enabled": true,
-                "server_name": "FFfFfFfvvBGnH.IrAN2035.DPDnS.oRg",
-                "insecure": true
-            },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "FFfFfFfvvBGnH.IrAN2035.DPDnS.oRg"
-                    ]
-                },
-                "path": "/xa846InEcmjyiKVby2Lp",
-                "type": "ws"
-            },
-            "type": "trojan",
-            "tcp_fast_open": true
-        },
-        {
-            "password": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
-            "server": "172.67.187.28",
-            "server_port": 443,
-            "tag": "🇺🇸 美国327",
-            "tls": {
-                "enabled": true,
-                "server_name": "gGgGGGGGGgGgHHHHhhhHhj.iRaN2035.dpdNS.oRg",
-                "insecure": true
-            },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "gGgGGGGGGgGgHHHHhhhHhj.iRaN2035.dpdNS.oRg"
-                    ]
-                },
-                "path": "/xa846InEcmjyiKVby2Lp",
+                "path": "/trGPZDfetEwuO25SAs?ed=2560",
                 "type": "ws"
             },
             "type": "trojan",
@@ -517,7 +444,7 @@
             "password": "da128246-33b0-4c88-a44e-d91e9e0a1e05",
             "server": "172.67.208.155",
             "server_port": 443,
-            "tag": "🇺🇸 美国 33327",
+            "tag": "🇺🇸 美国 33340",
             "tls": {
                 "enabled": true,
                 "server_name": "SsSDdDffGBNhJu.2030.Pp.Ua",
@@ -536,68 +463,10 @@
             "tcp_fast_open": true
         },
         {
-            "password": "c891d9fe-c4eb-4526-94e0-d9bf841c572a",
-            "server": "104.21.6.179",
-            "server_port": 443,
-            "tag": "🇺🇸 美国 2326",
-            "tls": {
-                "enabled": true,
-                "server_name": "FFBbN.890601.xYz",
-                "insecure": true
-            },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "FFBbN.890601.xYz"
-                    ]
-                },
-                "path": "/xMZBZXFlWfYaf1WT6O9LnD",
-                "type": "ws"
-            },
-            "type": "trojan",
-            "tcp_fast_open": true
-        },
-        {
-            "server": "x10.859885.xYz",
-            "server_port": 443,
-            "tag": "🇺🇸 美国 61326",
-            "tls": {
-                "enabled": true,
-                "server_name": "x10.859885.xYz",
-                "insecure": true
-            },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "x10.859885.xyz"
-                    ]
-                },
-                "path": "/0FhUkqQUdxOhMB9JsgTazwz9",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "da128246-33b0-4c88-a44e-d91e9e0a1e05",
-            "tcp_fast_open": true
-        },
-        {
-            "password": "65a43b6e-19c5-4fab-b960-d110a07d66a4",
-            "server": "209.141.47.127",
-            "server_port": 3234,
-            "tag": "❓ 未知_3",
-            "tls": {
-                "enabled": true,
-                "server_name": "209.141.47.127",
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "tcp_fast_open": true
-        },
-        {
             "password": "ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0",
             "server": "107.175.145.72",
-            "server_port": 42288,
-            "tag": "🇺🇸 美国 37328",
+            "server_port": 45494,
+            "tag": "🇺🇸 美国 36340",
             "tls": {
                 "enabled": true,
                 "server_name": "www.apple.com",
@@ -608,6 +477,244 @@
                 "password": "fWQ4LCfAYiKaEVRe",
                 "type": "salamander"
             },
+            "tcp_fast_open": true
+        },
+        {
+            "server": "hkt.gotochinatown.net",
+            "server_port": 80,
+            "tag": "🇭🇰 香港 9",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "hkt.gotochinatown.net"
+                    ]
+                },
+                "path": "/",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "alter_id": 2,
+            "security": "auto",
+            "uuid": "51362ab6-b5e6-11ea-ad28-f23c913c8d2b",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "195.154.200.40",
+            "server_port": 15010,
+            "tag": "2 |  2.2MB/s|25%|Youtube|Ope...",
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
+            },
+            "type": "hysteria",
+            "auth_str": "dongtaiwang.com",
+            "down": "100 Mbps",
+            "up": "100 Mbps",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "9486ff17-2481-40c7-a5c4-d0d307de2509",
+            "server": "172.67.175.139",
+            "server_port": 443,
+            "tag": "🇺🇸 美国 16335",
+            "tls": {
+                "enabled": true,
+                "server_name": "rrrrrrrt.859886.xyz",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "rrrrrrrt.859886.xyz"
+                    ]
+                },
+                "path": "/ORgwL4kEvW32T1dU239ar",
+                "type": "ws"
+            },
+            "type": "trojan",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0",
+            "server": "107.175.145.72",
+            "server_port": 48689,
+            "tag": "🇺🇸 美国 50340",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "obfs": {
+                "password": "fWQ4LCfAYiKaEVRe",
+                "type": "salamander"
+            },
+            "tcp_fast_open": true
+        },
+        {
+            "password": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
+            "server": "172.67.187.28",
+            "server_port": 443,
+            "tag": "🇺🇸 美国335",
+            "tls": {
+                "enabled": true,
+                "server_name": "gGgGGGGGGgGgHHHHhhhHhj.iRaN2035.dpdNS.oRg",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "gGgGGGGGGgGgHHHHhhhHhj.iRaN2035.dpdNS.oRg"
+                    ]
+                },
+                "path": "/xa846InEcmjyiKVby2Lp",
+                "type": "ws"
+            },
+            "type": "trojan",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "8r\u003c[9'l6hAO#8ZQi",
+            "server": "172.66.44.230",
+            "server_port": 8443,
+            "tag": "🇺🇸 美国 3302",
+            "tls": {
+                "enabled": true,
+                "server_name": "Koma-YT.PAGeS.Dev",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "Koma-YT.PAGeS.Dev"
+                    ]
+                },
+                "path": "/tro8sFW1S91B6sZrM1?ed=2560",
+                "type": "ws"
+            },
+            "type": "trojan",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "dc50eb1d-244d-4711-b168-a101a5e6fb1b",
+            "server": "104.21.91.180",
+            "server_port": 443,
+            "tag": "🇺🇸 美国 19340",
+            "tls": {
+                "enabled": true,
+                "server_name": "yyyhhjki.666461.xyz",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "yyyhhjki.666461.xyz"
+                    ]
+                },
+                "path": "/c6nDz4OnpXiNaWb",
+                "type": "ws"
+            },
+            "type": "trojan",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0",
+            "server": "107.175.145.72",
+            "server_port": 21080,
+            "tag": "🇺🇸 美国 48336",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "obfs": {
+                "password": "fWQ4LCfAYiKaEVRe",
+                "type": "salamander"
+            },
+            "tcp_fast_open": true
+        },
+        {
+            "password": "dongtaiwang.com",
+            "server": "51.159.111.32",
+            "server_port": 31180,
+            "tag": "🇫🇷 法国",
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "288124da-0d68-42f4-9f48-70dc4dcc55a6",
+            "server": "172.67.175.139",
+            "server_port": 443,
+            "tag": "🇺🇸 美国 9309",
+            "tls": {
+                "enabled": true,
+                "server_name": "cvFbghYU.859886.XYZ",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "cvFbghYU.859886.XYZ"
+                    ]
+                },
+                "path": "/raChT39pjLFYRA5HdHEIupMZeK",
+                "type": "ws"
+            },
+            "type": "trojan",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "c226ac5d-65e9-4379-95c3-fb542bc242d8",
+            "server": "104.21.91.180",
+            "server_port": 443,
+            "tag": "🇺🇸 美国 31340",
+            "tls": {
+                "enabled": true,
+                "server_name": "sssxXZAw.666461.xYz",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "sssxXZAw.666461.xYz"
+                    ]
+                },
+                "path": "/PLibEtUpg4ykd4O",
+                "type": "ws"
+            },
+            "type": "trojan",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
+            "server": "172.67.187.28",
+            "server_port": 443,
+            "tag": "🇺🇸 美国 29340",
+            "tls": {
+                "enabled": true,
+                "server_name": "NnNNnNNNNNjJjJJjhG.IRan2035.dPDnS.Org",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "NnNNnNNNNNjJjJJjhG.IRan2035.dPDnS.Org"
+                    ]
+                },
+                "path": "/xa846InEcmjyiKVby2Lp",
+                "type": "ws"
+            },
+            "type": "trojan",
             "tcp_fast_open": true
         },
         {
@@ -655,34 +762,40 @@
         {
             "interrupt_exist_connections": true,
             "outbounds": [
-                "🇯🇵 日本326",
-                "2 |  2.2MB/s|25%|Youtube|Ope...",
-                "🇺🇸 美国 54326",
-                "🇰🇷 韩国",
-                "🇺🇸 美国 9334",
-                "🇺🇸 美国 29326",
-                "🇫🇷 法国",
-                "🇺🇸 美国 27331",
-                "🇺🇸 美国 19328",
-                "🇺🇸 美国 26330",
-                "🇺🇸 美国 31327",
-                "🇺🇸 美国 16326",
-                "🇺🇸 美国 28331",
-                "🇺🇸 美国 9328",
-                "🇺🇸 美国 30327",
-                "🇺🇸 美国 3326",
-                "🇺🇸 美国 48326",
-                "🇺🇸 美国 2277",
+                "🇺🇸 美国 29301",
+                "🇺🇸 美国 9335",
+                "🇺🇸 美国 3340",
                 "❓ 未知_1",
-                "🇺🇸 美国 50327",
-                "🇺🇸 美国 43326",
-                "🇺🇸 美国 8326",
-                "🇺🇸 美国327",
-                "🇺🇸 美国 33327",
-                "🇺🇸 美国 2326",
-                "🇺🇸 美国 61326",
-                "❓ 未知_3",
-                "🇺🇸 美国 37328"
+                "🇺🇸 美国 43337",
+                "🇺🇸 美国 2337",
+                "🇺🇸 美国 61340",
+                "🇺🇸 美国 40340",
+                "🇺🇸 美国 2",
+                "🇺🇸 美国 26336",
+                "🇺🇸 美国 44335",
+                "🇺🇸 美国 37337",
+                "🇺🇸 美国 8336",
+                "🇺🇸 美国 28309",
+                "🇺🇸 美国 30337",
+                "🇺🇸 美国 54340",
+                "🇭🇰 香港340",
+                "🇺🇸 美国319",
+                "🇩🇪 德国 2340",
+                "🇺🇸 美国 27303",
+                "🇺🇸 美国 33340",
+                "🇺🇸 美国 36340",
+                "🇭🇰 香港 9",
+                "2 |  2.2MB/s|25%|Youtube|Ope...",
+                "🇺🇸 美国 16335",
+                "🇺🇸 美国 50340",
+                "🇺🇸 美国335",
+                "🇺🇸 美国 3302",
+                "🇺🇸 美国 19340",
+                "🇺🇸 美国 48336",
+                "🇫🇷 法国",
+                "🇺🇸 美国 9309",
+                "🇺🇸 美国 31340",
+                "🇺🇸 美国 29340"
             ],
             "tag": "🗽 自动",
             "type": "urltest"
@@ -690,8 +803,8 @@
         {
             "interrupt_exist_connections": true,
             "outbounds": [
-                "🇯🇵 日本326",
-                "🇰🇷 韩国"
+                "🇭🇰 香港340",
+                "🇭🇰 香港 9"
             ],
             "tag": "🌏 亚洲",
             "type": "urltest"
@@ -699,28 +812,34 @@
         {
             "interrupt_exist_connections": true,
             "outbounds": [
-                "🇺🇸 美国 54326",
-                "🇺🇸 美国 9334",
-                "🇺🇸 美国 29326",
-                "🇺🇸 美国 27331",
-                "🇺🇸 美国 19328",
-                "🇺🇸 美国 26330",
-                "🇺🇸 美国 31327",
-                "🇺🇸 美国 16326",
-                "🇺🇸 美国 28331",
-                "🇺🇸 美国 9328",
-                "🇺🇸 美国 30327",
-                "🇺🇸 美国 3326",
-                "🇺🇸 美国 48326",
-                "🇺🇸 美国 2277",
-                "🇺🇸 美国 50327",
-                "🇺🇸 美国 43326",
-                "🇺🇸 美国 8326",
-                "🇺🇸 美国327",
-                "🇺🇸 美国 33327",
-                "🇺🇸 美国 2326",
-                "🇺🇸 美国 61326",
-                "🇺🇸 美国 37328"
+                "🇺🇸 美国 29301",
+                "🇺🇸 美国 9335",
+                "🇺🇸 美国 3340",
+                "🇺🇸 美国 43337",
+                "🇺🇸 美国 2337",
+                "🇺🇸 美国 61340",
+                "🇺🇸 美国 40340",
+                "🇺🇸 美国 2",
+                "🇺🇸 美国 26336",
+                "🇺🇸 美国 44335",
+                "🇺🇸 美国 37337",
+                "🇺🇸 美国 8336",
+                "🇺🇸 美国 28309",
+                "🇺🇸 美国 30337",
+                "🇺🇸 美国 54340",
+                "🇺🇸 美国319",
+                "🇺🇸 美国 27303",
+                "🇺🇸 美国 33340",
+                "🇺🇸 美国 36340",
+                "🇺🇸 美国 16335",
+                "🇺🇸 美国 50340",
+                "🇺🇸 美国335",
+                "🇺🇸 美国 3302",
+                "🇺🇸 美国 19340",
+                "🇺🇸 美国 48336",
+                "🇺🇸 美国 9309",
+                "🇺🇸 美国 31340",
+                "🇺🇸 美国 29340"
             ],
             "tag": "🌎 美洲",
             "type": "urltest"
@@ -729,6 +848,7 @@
             "interrupt_exist_connections": true,
             "interval": "5m",
             "outbounds": [
+                "🇩🇪 德国 2340",
                 "🇫🇷 法国"
             ],
             "tag": "🌍 欧洲",
