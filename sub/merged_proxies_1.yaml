@@ -1,31 +1,22 @@
 proxies:
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🌈 ❓_🇺🇸_💻_github.com/Ruk1ng001_6639626666313035
-  port: 7885
-  reality-opts:
-    public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
-    short-id: 40cb281a
-  server: 45.150.165.121
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
-- name: 🇺🇸 US_26
-  network: ws
-  password: dc50eb1d-244d-4711-b168-a101a5e6fb1b
+- name: 🌈 _🇺🇸_💻_github.com/Ruk1ng001_3865663136383765
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   port: 443
-  server: 104.21.91.180
+  server: 108.181.23.241
   skip-cert-verify: true
-  sni: yyyhhjki.666461.xyz
+  sni: www.bing.com
   tfo: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yyyhhjki.666461.xyz
-    path: /c6nDz4OnpXiNaWb
+  type: hysteria2
+- name: 🇺🇸 US_45
+  obfs: salamander
+  obfs-password: fWQ4LCfAYiKaEVRe
+  password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
+  port: 48139
+  server: 107.175.145.72
+  skip-cert-verify: true
+  sni: www.apple.com
+  tfo: true
+  type: hysteria2
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: 🇺🇸 US_53
@@ -40,198 +31,6 @@ proxies:
   tls: true
   type: vless
   uuid: 81fe20fc-2bde-40d1-88e6-b869ce232236
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇭🇰 HK_6
-  port: 25888
-  reality-opts:
-    public-key: Md6PoLS8ZgYxc-mOoMkLSRMksQzNTTPW0Psmo0y2c3E
-    short-id: 9c5b5b672053fc
-  server: 157.254.154.74
-  servername: www.samsung.com
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  uuid: 8db41d88-269d-48d6-88b4-ab6ccc7291a5
-- name: 🌈 _🇺🇸_💻_github.com/Ruk1ng001_6237653663633135
-  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  port: 3234
-  server: 209.141.47.127
-  skip-cert-verify: true
-  tfo: true
-  type: hysteria2
-- name: 🌈 _🇺🇸_💻_github.com/Ruk1ng001_6630316666643433
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 172.66.44.230
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tfo: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tro8sFW1S91B6sZrM1?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US_17
-  network: ws
-  port: 80
-  server: 104.21.89.221
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  uuid: 512d9674-db12-44ca-a1b5-654244549b65
-  ws-opts:
-    headers:
-      Host: ssxxzasw.999824.xyz
-    path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm
-- name: 🇺🇸 US_36
-  network: ws
-  password: dc50eb1d-244d-4711-b168-a101a5e6fb1b
-  port: 443
-  server: 172.67.177.109
-  skip-cert-verify: true
-  sni: yyyhhjki.666461.xyz
-  tfo: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yyyhhjki.666461.xyz
-    path: /c6nDz4OnpXiNaWb
-- name: 🇺🇸 美国_3
-  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-  port: 443
-  server: 208.87.242.215
-  skip-cert-verify: true
-  sni: www.bing.com
-  tfo: true
-  type: hysteria2
-- name: 🇺🇸 US_54
-  obfs: salamander
-  obfs-password: fWQ4LCfAYiKaEVRe
-  password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
-  port: 48689
-  server: 107.175.145.72
-  skip-cert-verify: true
-  sni: www.apple.com
-  tfo: true
-  type: hysteria2
-- name: 🇺🇸 US_11
-  network: ws
-  password: c226ac5d-65e9-4379-95c3-fb542bc242d8
-  port: 443
-  server: 104.21.91.180
-  skip-cert-verify: true
-  sni: sssxXZAw.666461.xYz
-  tfo: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sssxXZAw.666461.xYz
-    path: /PLibEtUpg4ykd4O
-- name: 🇺🇸 美国_1
-  password: dongtaiwang.com
-  port: 4710
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
-  tfo: true
-  type: hysteria2
-- name: 🇺🇸 US_25
-  network: ws
-  password: trojan
-  port: 443
-  server: 104.19.174.68
-  skip-cert-verify: true
-  sni: azadnet-9ya.pages.dev
-  tfo: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: azadnet-9ya.pages.dev
-    path: /?ed=2560
-- name: 🇺🇸 US_16
-  network: ws
-  password: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
-  port: 443
-  server: 104.21.84.58
-  skip-cert-verify: true
-  sni: FFfFfFfvvBGnH.IrAN2035.DPDnS.oRg
-  tfo: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: FFfFfFfvvBGnH.IrAN2035.DPDnS.oRg
-    path: /xa846InEcmjyiKVby2Lp
-- name: 🇺🇸 US_49
-  password: dongtaiwang.com
-  port: 4710
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
-  tfo: true
-  type: hysteria2
-- name: 🇺🇸 US_41
-  obfs: salamander
-  obfs-password: fWQ4LCfAYiKaEVRe
-  password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
-  port: 45494
-  server: 107.175.145.72
-  skip-cert-verify: true
-  sni: www.apple.com
-  tfo: true
-  type: hysteria2
-- name: 🇺🇸 US_58
-  obfs: salamander
-  obfs-password: fWQ4LCfAYiKaEVRe
-  password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
-  port: 47647
-  server: 107.175.145.72
-  skip-cert-verify: true
-  sni: www.apple.com
-  tfo: true
-  type: hysteria2
-- name: 🇺🇸 US_35
-  network: ws
-  password: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
-  port: 443
-  server: 172.67.187.28
-  skip-cert-verify: true
-  sni: NnNNnNNNNNjJjJJjhG.IRan2035.dPDnS.Org
-  tfo: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: NnNNnNNNNNjJjJJjhG.IRan2035.dPDnS.Org
-    path: /xa846InEcmjyiKVby2Lp
-- name: 🇺🇸 US_39
-  network: ws
-  password: da128246-33b0-4c88-a44e-d91e9e0a1e05
-  port: 443
-  server: 172.67.208.155
-  skip-cert-verify: true
-  sni: SsSDdDffGBNhJu.2030.Pp.Ua
-  tfo: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: SsSDdDffGBNhJu.2030.Pp.Ua
-    path: /UmUQq8h08wB9JsgTazwz9
-- name: 🇺🇸 US_32
-  obfs: salamander
-  obfs-password: fWQ4LCfAYiKaEVRe
-  password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
-  port: 43011
-  server: 107.175.145.72
-  skip-cert-verify: true
-  sni: www.apple.com
-  tfo: true
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 🇺🇸 US_9
@@ -247,21 +46,177 @@ proxies:
     headers:
       Host: x10.859885.xyz
     path: /0FhUkqQUdxOhMB9JsgTazwz9
-- name: 🇺🇸 US_45
+- name: 🇺🇸 US_54
   obfs: salamander
   obfs-password: fWQ4LCfAYiKaEVRe
   password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
-  port: 48139
+  port: 48689
   server: 107.175.145.72
   skip-cert-verify: true
   sni: www.apple.com
   tfo: true
   type: hysteria2
-- name: 🇺🇸 US_42
+- cipher: aes-256-cfb
+  name: 🇰🇷 韩国|@ripaojiedian284
+  password: qwerREWQ@@
+  port: 15098
+  server: p222.panda001.net
+  tfo: true
+  type: ss
+- name: 🌈 _🇺🇸_💻_github.com/Ruk1ng001_3836653630353532
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 208.87.242.79
+  skip-cert-verify: true
+  sni: www.bing.com
+  tfo: true
+  type: hysteria2
+- name: 🇺🇸 美国_1
+  password: dongtaiwang.com
+  port: 4710
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tfo: true
+  type: hysteria2
+- name: 🌈 _🇺🇸_💻_github.com/Ruk1ng001_3730316164663136
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 208.87.242.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  tfo: true
+  type: hysteria2
+- name: 🇺🇸 US_49
+  password: dongtaiwang.com
+  port: 4710
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tfo: true
+  type: hysteria2
+- name: 🇺🇸 US_11
+  network: ws
+  password: c226ac5d-65e9-4379-95c3-fb542bc242d8
+  port: 443
+  server: 104.21.91.180
+  skip-cert-verify: true
+  sni: sssxXZAw.666461.xYz
+  tfo: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sssxXZAw.666461.xYz
+    path: /PLibEtUpg4ykd4O
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🌈 ❓_🇺🇸_💻_github.com/Ruk1ng001_6639626666313035
+  port: 7885
+  reality-opts:
+    public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
+    short-id: 40cb281a
+  server: 45.150.165.121
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
+- name: 🇺🇸 US_41
   obfs: salamander
   obfs-password: fWQ4LCfAYiKaEVRe
   password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
-  port: 42288
+  port: 45494
+  server: 107.175.145.72
+  skip-cert-verify: true
+  sni: www.apple.com
+  tfo: true
+  type: hysteria2
+- name: 🌈 _🇺🇸_💻_github.com/Ruk1ng001_3537633339356439
+  network: ws
+  password: 288124da-0d68-42f4-9f48-70dc4dcc55a6
+  port: 443
+  server: 172.67.175.139
+  skip-cert-verify: true
+  sni: cvFbghYU.859886.XYZ
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cvFbghYU.859886.XYZ
+    path: /raChT39pjLFYRA5HdHEIupMZeK
+- name: 🌈 ❓ 未知_1
+  password: dongtaiwang.com
+  port: 31180
+  server: 51.159.111.32
+  skip-cert-verify: true
+  sni: apple.com
+  tfo: true
+  type: hysteria2
+- name: 📺 42 |  5.7MB/s|47%|Netflix|Di...
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 208.87.242.215
+  skip-cert-verify: true
+  sni: www.bing.com
+  tfo: true
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国(免费节点)_1
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.199
+  tfo: true
+  type: ss
+- alpn:
+  - h3
+  auth: ZG9uZ3RhaXdhbmcuY29t
+  auth-str: dongtaiwang.com
+  down: 100 Mbps
+  down-speed: 100
+  name: 🌈 2 |  2.2MB/s|25%|Youtube|Ope...
+  port: 15010
+  server: 195.154.200.40
+  skip-cert-verify: true
+  sni: apple.com
+  tfo: true
+  type: hysteria
+  up: 100 Mbps
+  up-speed: 100
+- cipher: aes-256-cfb
+  name: 🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ@@
+  port: 15098
+  server: p222.panda001.net
+  tfo: true
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🌈 ❓_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_32333633376637
+  port: 43000
+  reality-opts:
+    public-key: fpW2C8i9N9DM6kVILbCOhxxCgRUhZikdM8sGT1Nb8iw
+    short-id: 9cb783
+  server: 38.225.101.77
+  servername: www.hkust.edu.hk
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  uuid: 3e33f29c-44aa-49aa-94f7-fac8fd018b9e
+- name: 🌈 ❓ 未知_3
+  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  port: 3234
+  server: 209.141.47.127
+  skip-cert-verify: true
+  tfo: true
+  type: hysteria2
+- name: 🇺🇸 US_32
+  obfs: salamander
+  obfs-password: fWQ4LCfAYiKaEVRe
+  password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
+  port: 43011
   server: 107.175.145.72
   skip-cert-verify: true
   sni: www.apple.com
@@ -280,6 +235,40 @@ proxies:
     headers:
       Host: rrrrrrrt.859886.xyz
     path: /ORgwL4kEvW32T1dU239ar
+- name: 🌈 _🇺🇸_💻_github.com/Ruk1ng001_62323663666138
+  password: dongtaiwang.com
+  port: 4710
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tfo: true
+  type: hysteria2
+- name: 🌈 _🇺🇸_💻_github.com/Ruk1ng001_6533326364656237
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 108.181.23.255
+  skip-cert-verify: true
+  sni: www.bing.com
+  tfo: true
+  type: hysteria2
+- name: 🇺🇸 美国_2
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 108.181.23.255
+  skip-cert-verify: true
+  sni: www.bing.com
+  tfo: true
+  type: hysteria2
+- name: 🇺🇸 US_58
+  obfs: salamander
+  obfs-password: fWQ4LCfAYiKaEVRe
+  password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
+  port: 47647
+  server: 107.175.145.72
+  skip-cert-verify: true
+  sni: www.apple.com
+  tfo: true
+  type: hysteria2
 - name: 🇺🇸 US_37
   network: ws
   password: c226ac5d-65e9-4379-95c3-fb542bc242d8
@@ -293,65 +282,24 @@ proxies:
     headers:
       Host: sssxXZAw.666461.xYz
     path: /PLibEtUpg4ykd4O
-- name: 🇺🇸 US_10
-  network: ws
-  password: c891d9fe-c4eb-4526-94e0-d9bf841c572a
+- name: 🇺🇸 美国_3
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   port: 443
-  server: 104.21.6.179
+  server: 208.87.242.215
   skip-cert-verify: true
-  sni: FFBbN.890601.xYz
+  sni: www.bing.com
   tfo: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: FFBbN.890601.xYz
-    path: /xMZBZXFlWfYaf1WT6O9LnD
-- name: 🇺🇸 US_52
+  type: hysteria2
+- name: 🇺🇸 US_42
   obfs: salamander
   obfs-password: fWQ4LCfAYiKaEVRe
   password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
-  port: 21080
+  port: 42288
   server: 107.175.145.72
   skip-cert-verify: true
   sni: www.apple.com
   tfo: true
   type: hysteria2
-- name: 🇺🇸 美国_2
-  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-  port: 443
-  server: 108.181.23.255
-  skip-cert-verify: true
-  sni: www.bing.com
-  tfo: true
-  type: hysteria2
-- name: 🌈 ❓ 未知_1
-  password: dongtaiwang.com
-  port: 31180
-  server: 51.159.111.32
-  skip-cert-verify: true
-  sni: apple.com
-  tfo: true
-  type: hysteria2
-- name: 🇺🇸 US_43
-  network: ws
-  password: 2d068083-2cb0-4ae3-a44a-6fc82f3039cc
-  port: 443
-  server: 172.67.220.213
-  skip-cert-verify: true
-  sni: dDDccCDvFg.222856.XYZ
-  tfo: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: dDDccCDvFg.222856.XYZ
-    path: /yBqYg1mv8EDa06b88JSo
-- cipher: aes-256-cfb
-  name: 🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
-  tfo: true
-  type: ss
 - name: 🌈 _🇺🇸_💻_github.com/Ruk1ng001_3835313431343264
   network: ws
   password: T@_WvT8Ho@LW%w_,
@@ -366,3 +314,117 @@ proxies:
     headers:
       Host: NOp-55q.pAgEs.dEv
     path: /trGPZDfetEwuO25SAs?ed=2560
+- name: 📺 43 |  4.9MB/s|48%|Netflix|Di...
+  password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+  port: 443
+  server: 108.181.23.255
+  skip-cert-verify: true
+  sni: www.bing.com
+  tfo: true
+  type: hysteria2
+- name: 🌈 _🇺🇸_💻_github.com/Ruk1ng001_6630316666643433
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tro8sFW1S91B6sZrM1?ed=2560
+- name: 🌈 _🇺🇸_💻_github.com/Ruk1ng001_6237653663633135
+  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  port: 3234
+  server: 209.141.47.127
+  skip-cert-verify: true
+  tfo: true
+  type: hysteria2
+- name: 🇺🇸 US_26
+  network: ws
+  password: dc50eb1d-244d-4711-b168-a101a5e6fb1b
+  port: 443
+  server: 104.21.91.180
+  skip-cert-verify: true
+  sni: yyyhhjki.666461.xyz
+  tfo: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yyyhhjki.666461.xyz
+    path: /c6nDz4OnpXiNaWb
+- name: 🇺🇸 US_36
+  network: ws
+  password: dc50eb1d-244d-4711-b168-a101a5e6fb1b
+  port: 443
+  server: 172.67.177.109
+  skip-cert-verify: true
+  sni: yyyhhjki.666461.xyz
+  tfo: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yyyhhjki.666461.xyz
+    path: /c6nDz4OnpXiNaWb
+- name: '🌈 Channel id: @ShadowProxy66🇫🇷'
+  password: dongtaiwang.com
+  port: 31180
+  server: 51.159.111.32
+  skip-cert-verify: true
+  sni: apple.com
+  tfo: true
+  type: hysteria2
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇭🇰 HK_6
+  port: 25888
+  reality-opts:
+    public-key: Md6PoLS8ZgYxc-mOoMkLSRMksQzNTTPW0Psmo0y2c3E
+    short-id: 9c5b5b672053fc
+  server: 157.254.154.74
+  servername: www.samsung.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  uuid: 8db41d88-269d-48d6-88b4-ab6ccc7291a5
+- name: 🇺🇸 US_52
+  obfs: salamander
+  obfs-password: fWQ4LCfAYiKaEVRe
+  password: ee393141-d1a0-4cdd-ae18-57fd8dbdcaf0
+  port: 21080
+  server: 107.175.145.72
+  skip-cert-verify: true
+  sni: www.apple.com
+  tfo: true
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 德国(免费节点)_2
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: beesyar.org
+  tfo: true
+  type: ss
+- name: 🇺🇸 US_39
+  network: ws
+  password: da128246-33b0-4c88-a44e-d91e9e0a1e05
+  port: 443
+  server: 172.67.208.155
+  skip-cert-verify: true
+  sni: SsSDdDffGBNhJu.2030.Pp.Ua
+  tfo: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: SsSDdDffGBNhJu.2030.Pp.Ua
+    path: /UmUQq8h08wB9JsgTazwz9
+- name: '🌈 Channel id: @ShadowProxy66🇺🇸'
+  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  port: 3234
+  server: 209.141.47.127
+  skip-cert-verify: true
+  tfo: true
+  type: hysteria2
