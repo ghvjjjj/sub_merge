@@ -10,7 +10,7 @@
     "id": 75,
     "remarks": "20250327",
     "site": "https://github.com/e-miao/freeClash",
-    "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_HK.meta.yml|https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_JP.meta.yml|https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_SG.meta.yml|https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_TW.meta.yml|https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes_KR.meta.yml|https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml|https://raw.githubusercontent.com/kSLAWIASCA/actions/refs/heads/main/Clash.yml|https://raw.githubusercontent.com/Ruk1ng001/freeSub/refs/heads/main/clash.yaml",
+    "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes.meta.yml|https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes.yml|https://raw.githubusercontent.com/hello-world-1989/cn-news/refs/heads/main/clash.yaml|https://raw.githubusercontent.com/ccpthisbigdog/freedomchina/refs/heads/main/clab.yaml|https://raw.githubusercontent.com/PlanAsli/configs-collector-v2ray/refs/heads/main/sub/countries/JP.txt|https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml|https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml|https://raw.githubusercontent.com/kSLAWIASCA/actions/refs/heads/main/Clash.yml|https://raw.githubusercontent.com/Ruk1ng001/freeSub/refs/heads/main/clash.yaml",
     "enabled": true
   }
 ]
