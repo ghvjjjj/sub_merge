@@ -117,7 +117,7 @@ def run(index, shared_list):
         # exclude_quote = urllib.parse.quote(exclude, safe='')
         # 转换并获取订阅链接数据
         converted_url = server_host + '/sub?target=clash&url=' + url_quote + \
-                        '&emoji=true&config=https://raw.githubusercontent.com/DoingDog/clashconf/refs/heads/main/00clash.ini&list=true&tfo=true&scv=true&fdn=true&sort=false&new_name=true&include=' + include_quote
+                        '&config=https://raw.githubusercontent.com/ghvjjjj/sub_merge/refs/heads/main/aclash.ini&list=true&tfo=true&scv=true&fdn=true&sort=false&new_name=true&include=' + include_quote
         try:
             # lock.acquire()
             s = requests.Session()
